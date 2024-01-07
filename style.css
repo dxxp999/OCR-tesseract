@@ -1,0 +1,116 @@
+body{
+    height: 100vh;
+    padding: 0px 10%;
+    font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(135deg, #69a3ff, #000000);
+}
+.container{
+    margin-top: 20px;
+}
+.upper div{
+    display: inline;
+    margin-left: 100px;
+    white-space: pre;
+    font-family: 'Roboto Mono', monospace;
+}
+.bottom{
+    margin-top: 30px;
+    display: flex;
+}
+.bottom div{
+    flex: 1;
+    /* border: 1px solid rgb(118, 118, 118); */
+    height: 400px;
+    margin: 10px;
+    /* background-color: white; */
+}
+.bottom div img{
+    max-width: calc(100% - 20px);
+    max-height: calc(100% - 20px);
+    margin: 10px;
+}
+.bottom div textarea{
+    resize: none;
+    width: calc(100% - 21px);
+    height: calc(100% - 21px);
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+.bottom div:first-child{
+    margin-left: 20px;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    /* display: -webkit-box; */
+}
+.bottom div:last-child{
+    margin-right: 0px;
+}
+input[type="file"] {
+    border: 2px solid #a2cfe8;
+    border-radius: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 20px;
+}
+button {
+    font-family: 'Roboto Mono', monospace;
+    border: none;
+    width: 80px;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #1356ff;
+    box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.5);
+    color: white;
+    transition: background-color 0.3s;
+    
+}
+button:hover {
+    background-color: #1d43a2;
+}
+.mini-div{
+box-shadow: 5px 5px 38px -5px rgba(0,0,0,0.5);
+    background: linear-gradient(135deg, #eef5ff, #c4feff);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ddfeff;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #defeff;
+    margin-top: 10vh;
+}
+.inp{
+    color: #ddfeff;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 10px;
+}
+.preview{
+    color: #5a5a5a;
+    font-size: 1rem;
+    padding-top: 0px;
+
+}
+::placeholder {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    color: #5a5a5a;
+    padding: 10px;
+  }
+.bottom div:first-child img {
+    display: block;
+}
